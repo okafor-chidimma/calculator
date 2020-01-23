@@ -1,5 +1,8 @@
 Calculator.js: a node.js Demonstration Project
 ==============================================
+[![Build Status](https://dev.azure.com/chidimmaokaforc/AnyProjectName/_apis/build/status/okafor-chidimma.calculator%20(1)?branchName=master)](https://dev.azure.com/chidimmaokaforc/AnyProjectName/_build/latest?definitionId=5&branchName=master)
+
+
 An example node.js project, including tests with mocha, that behaves like
 a pocket calculator.
 
