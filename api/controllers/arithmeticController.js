@@ -11,6 +11,7 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
+    //trigger build
 //     Using the + operator to coerce the variables to become numbers so the middle + does not treat them as strings
     'add':      function(a,b) { return +a + +b },
     'subtract': function(a,b) { return a - b },
