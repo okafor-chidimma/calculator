@@ -11,8 +11,7 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    //trigger build
-//     Using the + operator to coerce the variables to become numbers so the middle + does not treat them as strings
+    //added the plus sign before the variable so as to convert them to numeric type to prevent concatenating both variables
     'add':      function(a,b) { return +a + +b },
     'subtract': function(a,b) { return a - b },
     'multiply': function(a,b) { return a * b },
